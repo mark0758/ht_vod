@@ -14,7 +14,7 @@
 ------------
 
 #####**监听事件 MT.on**
-- **`MT.camera(@cmd, @callback)`**
+- **`MT.on(@cmd, @callback)`**
 	- **参数@cmd: 操作命令**
 	- **参数@callback: 回调函数**
 <pre>
@@ -40,7 +40,7 @@ MT.camera("cameraContainer", "camerarPlayer", function(camera){
 
 
 #####**创建播放器 MT.mianPlayer**
-- **`MT.camera(@playerContainer, @cameraId, @callback)`**
+- **`MT.mianPlayer(@playerContainer, @cameraId, @callback)`**
 	- **参数@cameraContainer: 摄像头容器**
 	- **参数@cameraId: 摄像头id**
 	- **参数@callback: 创建完成回调函数**
